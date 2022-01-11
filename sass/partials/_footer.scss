@@ -1,0 +1,63 @@
+@import "variables";
+
+.footer{
+    color: white;
+    background-color: $color-principal;
+    padding: 3% 10% 3% 10%;
+    &__logo{     
+        h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $color-dorado;
+        }   
+        h2{
+            font-size: 1rem;
+        }
+        &__img{
+            
+            padding-bottom: 10px;
+            height: 150px;
+        }
+        &__description{
+            padding-top: 10px;
+            
+            font-size: 1.2rem;
+            font-weight: bold;
+        }        
+    }
+    &__links{
+        h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $color-dorado;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0px;
+            li{                
+                a{                
+                    text-decoration: none;
+                }
+            }            
+        }
+    }
+    &__contacts{
+        @extend .footer__links;
+    }
+    &__address{
+        h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $color-dorado;
+        }
+    }
+}
+
+@media(max-width:992px){
+    .footer{
+    }
+    
+}

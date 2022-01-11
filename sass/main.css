@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(12, 176, 136, 0.7);
+  z-index: 1;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.header .navbar-light .navbar-nav .nav-link.active, .header .navbar-light .navbar-nav .show > .nav-link {
+  color: #daa520;
+}
+
+.header .active {
+  text-transform: uppercase;
+}
+
+.header__menu li a {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.header__menu__botonReservar {
+  margin-left: 10px;
+  border: 3px solid #daa520;
+  border-radius: 15px;
+}
+
+.header__menu__botonReservar:hover {
+  background-color: #daa520;
+}
+
+.header__logo {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 992px) {
+  .header {
+    position: relative;
+  }
+  .header__menu__botonReservar {
+    margin-left: 0px;
+    border: none;
+    border-radius: 0px;
+  }
+  .header__menu__botonReservar:hover {
+    background-color: transparent;
+  }
+}
+
+.portada {
+  padding: 0px;
+}
+
+.portada__video {
+  width: 100%;
+}
+
+.footer {
+  color: white;
+  background-color: #0CB088;
+  padding: 3% 10% 3% 10%;
+}
+
+.footer__logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #daa520;
+}
+
+.footer__logo h2 {
+  font-size: 1rem;
+}
+
+.footer__logo__img {
+  padding-bottom: 10px;
+  height: 150px;
+}
+
+.footer__logo__description {
+  padding-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer__links h1, .footer__contacts h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #daa520;
+}
+
+.footer__links ul, .footer__contacts ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.footer__links ul li a, .footer__contacts ul li a {
+  text-decoration: none;
+}
+
+.footer__address h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #daa520;
+}
+/*# sourceMappingURL=main.css.map */
