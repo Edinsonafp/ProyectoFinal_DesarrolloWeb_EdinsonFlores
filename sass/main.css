@@ -176,6 +176,76 @@
   }
 }
 
+.instalaciones {
+  background-image: url(../../img/instalaciones__img.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 600px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instalaciones__articulo {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+
+.instalaciones__articulo__titulo {
+  color: #daa520;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.instalaciones__articulo__descripcion {
+  color: white;
+  font-size: 2rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.instalaciones__articulo a {
+  text-decoration: none;
+}
+
+.instalaciones__articulo__boton {
+  width: 300px;
+  color: #fff;
+  background-color: #dc3545;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .instalaciones__articulo__titulo {
+    font-size: 2rem;
+  }
+  .instalaciones__articulo__descripcion {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .instalaciones__articulo__titulo {
+    font-size: 1.5rem;
+  }
+  .instalaciones__articulo__descripcion {
+    font-size: 1.3rem;
+  }
+  .instalaciones__articulo__boton {
+    width: 200px;
+  }
+}
+
 .footer {
   color: white;
   background-color: #0CB088;
