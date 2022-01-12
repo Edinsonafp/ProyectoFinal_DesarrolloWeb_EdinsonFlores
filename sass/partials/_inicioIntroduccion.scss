@@ -1,0 +1,131 @@
+@import "variables";
+
+.introduccion{    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    &__ofertas{
+        position: relative;
+        &__boton{
+            z-index: 1;
+            position: absolute;
+            left: 50px;
+            top: 30px;
+            background-color: $color-ofertas;
+            color: #fff;
+            display: inline-block;
+            padding: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 20px;            
+        }
+        
+        &__titulo{
+            z-index: 1;
+            position: absolute;
+            left: 50px;
+            bottom: 10%;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: black;
+        }
+        
+        &__img{
+            background-image: url("../../img/introduccion__ofertas__img.jpg");
+            background-color: #ccc;
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            opacity: 0.9;
+            object-fit: cover;
+        }
+    }
+
+    &__servicios{
+        position: relative;
+        &__boton{
+            @extend .introduccion__ofertas__boton;
+        }
+        &__titulo{
+            @extend .introduccion__ofertas__titulo;
+        }
+        &__img{
+            @extend .introduccion__ofertas__img;     
+            width: 100%;  
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__actividades{
+        position: relative;
+        &__boton{
+            @extend .introduccion__ofertas__boton;
+        }
+        &__titulo{
+            @extend .introduccion__ofertas__titulo;
+        }
+        &__img{
+            @extend .introduccion__servicios__img;             
+        }
+    }
+}
+
+@media(max-width:991px){
+    .introduccion{
+        &__ofertas{
+            padding-bottom: 5%;
+        }
+        &__servicios{
+            height: 390px;
+        }
+        &__actividades{
+            height: 390px;
+        }
+    }
+}
+
+@media(max-width:575px){
+    .introduccion{
+        &__ofertas{
+            height: 390px;
+        }
+        &__servicios{
+            padding-bottom: 5%;
+        }
+        &__actividades{
+            padding-bottom: 5%;
+        }
+    }
+}
+
+@media(max-width:320px){
+    .introduccion{
+        &__ofertas{
+            &__boton{
+                left: 60px;
+            }
+            &__titulo{
+                text-align: center;
+                left: 0px;
+            }            
+        }
+        &__servicios{
+            &__boton{
+                left: 105px;
+            }
+            &__titulo{
+                text-align: center;
+                left: 50px;
+            }    
+        }
+        &__actividades{
+            &__boton{
+                left: 105px;
+            }
+            &__titulo{
+                text-align: center;
+                left: 40px;
+            }    
+        }
+    }
+}
