@@ -1,0 +1,46 @@
+@import "variables";
+@import "inicioHabitaciones";
+
+.comentarios{
+    background-color: $color-principal;
+    &__titulo{
+        @extend .habitaciones__titulo;
+    }
+    .row{
+        padding: 0px 50px 20px 50px;
+        justify-content: center;
+    }
+    &__cliente{        
+        background-color: white;
+        border: solid 3px $color-dorado;
+        border-radius: 25px;
+        height: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        &__perfil{            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            margin-top: 50px;
+            &__img{              
+                height: 100px;
+                width: 100px;
+                border: solid 3px $color-dorado;
+                border-radius: 50%;       
+                object-fit: cover;      
+            }
+            h3{
+                margin-left: 20px;
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: black;    
+            }
+        }
+        &__texto{
+            padding: 10%;
+            font-size: 1rem;
+            color: black;
+        }
+    }   
+}

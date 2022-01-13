@@ -1,0 +1,119 @@
+@import "variables";
+@import "inicioInstalacionens";
+
+.habitaciones{    
+    &__titulo{
+        padding-top: 50px;
+        text-align: center;
+        color: $color-dorado;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    &__subtitulo{
+        padding-bottom: 50px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;        
+    }
+
+    &__suit{
+        height: 400px;
+        padding: 0px 10% 50px 10%;
+        &__descripcion{
+            height: 100%;
+            padding-top: 30px;
+            &__titulo{
+                color: $color-dorado;
+                font-size: 2.5rem;
+                font-weight: bold;
+            }
+            &__texto, h3{
+                color: black;
+                font-size: 1.2rem;
+            }
+            h2{
+                @extend .habitaciones__suit__descripcion__titulo;
+                font-size: 2rem;
+            }
+        }
+
+        &__img{
+            height: 100%;
+            border-radius: 40px; 
+            object-fit: cover;                      
+        }  
+
+        a{
+            text-decoration: none;
+        }
+        
+        &__boton{
+            @extend .instalaciones__articulo__boton;
+            text-align: center;
+            width: 200px;            
+        }
+        
+    }
+}
+
+@media(max-width:767px){
+    .habitaciones{
+        &__suit{
+            height: 100%;
+            &__descripcion{
+                height: 320px;
+            }
+            &__img{
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media(max-width:480px){
+    .habitaciones{
+        &__titulo{
+            font-size: 2rem;
+        }
+        &__subtitulo{
+            font-size: 1rem;
+            padding-bottom: 0px;
+        }
+        &__suit{
+            height: 100%;
+            &__descripcion{
+                height: 360px;
+                &__titulo, h2{
+                    font-size: 1.8rem;
+                }
+                
+            }
+            
+        }
+    }
+}
+
+@media(max-width:390px){
+    .habitaciones{
+        
+        &__suit{
+            height: 100%;
+            &__descripcion{
+                height: 400px;
+            }            
+        }
+    }
+}
+
+@media(max-width:334px){
+    .habitaciones{
+        
+        &__suit{
+            height: 100%;
+            &__descripcion{
+                height: 430px;
+                
+            }            
+        }
+    }
+}

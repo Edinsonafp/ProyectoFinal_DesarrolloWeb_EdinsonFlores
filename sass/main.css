@@ -183,8 +183,6 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  padding-left: 0px;
-  padding-right: 0px;
   height: 600px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -214,7 +212,7 @@
   text-decoration: none;
 }
 
-.instalaciones__articulo__boton {
+.instalaciones__articulo__boton, .habitaciones__suit__boton {
   width: 300px;
   color: #fff;
   background-color: #dc3545;
@@ -241,9 +239,594 @@
   .instalaciones__articulo__descripcion {
     font-size: 1.3rem;
   }
-  .instalaciones__articulo__boton {
+  .instalaciones__articulo__boton, .habitaciones__suit__boton {
     width: 200px;
   }
+}
+
+.instalaciones {
+  background-image: url(../../img/instalaciones__img.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 600px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instalaciones__articulo {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+
+.instalaciones__articulo__titulo {
+  color: #daa520;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.instalaciones__articulo__descripcion {
+  color: white;
+  font-size: 2rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.instalaciones__articulo a {
+  text-decoration: none;
+}
+
+.instalaciones__articulo__boton, .habitaciones__suit__boton {
+  width: 300px;
+  color: #fff;
+  background-color: #dc3545;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .instalaciones__articulo__titulo {
+    font-size: 2rem;
+  }
+  .instalaciones__articulo__descripcion {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .instalaciones__articulo__titulo {
+    font-size: 1.5rem;
+  }
+  .instalaciones__articulo__descripcion {
+    font-size: 1.3rem;
+  }
+  .instalaciones__articulo__boton, .habitaciones__suit__boton {
+    width: 200px;
+  }
+}
+
+.habitaciones__titulo, .comentarios__titulo, .mapa__titulo {
+  padding-top: 50px;
+  text-align: center;
+  color: #daa520;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.habitaciones__subtitulo {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.habitaciones__suit {
+  height: 400px;
+  padding: 0px 10% 50px 10%;
+}
+
+.habitaciones__suit__descripcion {
+  height: 100%;
+  padding-top: 30px;
+}
+
+.habitaciones__suit__descripcion__titulo, .habitaciones__suit__descripcion h2 {
+  color: #daa520;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.habitaciones__suit__descripcion__texto, .habitaciones__suit__descripcion h3 {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.habitaciones__suit__descripcion h2 {
+  font-size: 2rem;
+}
+
+.habitaciones__suit__img {
+  height: 100%;
+  border-radius: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.habitaciones__suit a {
+  text-decoration: none;
+}
+
+.habitaciones__suit__boton {
+  text-align: center;
+  width: 200px;
+}
+
+@media (max-width: 767px) {
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 320px;
+  }
+  .habitaciones__suit__img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .habitaciones__titulo, .comentarios__titulo, .mapa__titulo {
+    font-size: 2rem;
+  }
+  .habitaciones__subtitulo {
+    font-size: 1rem;
+    padding-bottom: 0px;
+  }
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 360px;
+  }
+  .habitaciones__suit__descripcion__titulo, .habitaciones__suit__descripcion h2, .habitaciones__suit__descripcion h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 400px;
+  }
+}
+
+@media (max-width: 334px) {
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 430px;
+  }
+}
+
+.instalaciones {
+  background-image: url(../../img/instalaciones__img.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 600px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instalaciones__articulo {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+
+.instalaciones__articulo__titulo {
+  color: #daa520;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.instalaciones__articulo__descripcion {
+  color: white;
+  font-size: 2rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.instalaciones__articulo a {
+  text-decoration: none;
+}
+
+.instalaciones__articulo__boton, .habitaciones__suit__boton {
+  width: 300px;
+  color: #fff;
+  background-color: #dc3545;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .instalaciones__articulo__titulo {
+    font-size: 2rem;
+  }
+  .instalaciones__articulo__descripcion {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .instalaciones__articulo__titulo {
+    font-size: 1.5rem;
+  }
+  .instalaciones__articulo__descripcion {
+    font-size: 1.3rem;
+  }
+  .instalaciones__articulo__boton, .habitaciones__suit__boton {
+    width: 200px;
+  }
+}
+
+.habitaciones__titulo, .comentarios__titulo, .mapa__titulo {
+  padding-top: 50px;
+  text-align: center;
+  color: #daa520;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.habitaciones__subtitulo {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.habitaciones__suit {
+  height: 400px;
+  padding: 0px 10% 50px 10%;
+}
+
+.habitaciones__suit__descripcion {
+  height: 100%;
+  padding-top: 30px;
+}
+
+.habitaciones__suit__descripcion__titulo, .habitaciones__suit__descripcion h2 {
+  color: #daa520;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.habitaciones__suit__descripcion__texto, .habitaciones__suit__descripcion h3 {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.habitaciones__suit__descripcion h2 {
+  font-size: 2rem;
+}
+
+.habitaciones__suit__img {
+  height: 100%;
+  border-radius: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.habitaciones__suit a {
+  text-decoration: none;
+}
+
+.habitaciones__suit__boton {
+  text-align: center;
+  width: 200px;
+}
+
+@media (max-width: 767px) {
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 320px;
+  }
+  .habitaciones__suit__img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .habitaciones__titulo, .comentarios__titulo, .mapa__titulo {
+    font-size: 2rem;
+  }
+  .habitaciones__subtitulo {
+    font-size: 1rem;
+    padding-bottom: 0px;
+  }
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 360px;
+  }
+  .habitaciones__suit__descripcion__titulo, .habitaciones__suit__descripcion h2, .habitaciones__suit__descripcion h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 400px;
+  }
+}
+
+@media (max-width: 334px) {
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 430px;
+  }
+}
+
+.comentarios {
+  background-color: #0CB088;
+}
+
+.comentarios .row {
+  padding: 0px 50px 20px 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.comentarios__cliente {
+  background-color: white;
+  border: solid 3px #daa520;
+  border-radius: 25px;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.comentarios__cliente__perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.comentarios__cliente__perfil__img {
+  height: 100px;
+  width: 100px;
+  border: solid 3px #daa520;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.comentarios__cliente__perfil h3 {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.comentarios__cliente__texto {
+  padding: 10%;
+  font-size: 1rem;
+  color: black;
+}
+
+.instalaciones {
+  background-image: url(../../img/instalaciones__img.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 600px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instalaciones__articulo {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+
+.instalaciones__articulo__titulo {
+  color: #daa520;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.instalaciones__articulo__descripcion {
+  color: white;
+  font-size: 2rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.instalaciones__articulo a {
+  text-decoration: none;
+}
+
+.instalaciones__articulo__boton, .habitaciones__suit__boton {
+  width: 300px;
+  color: #fff;
+  background-color: #dc3545;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .instalaciones__articulo__titulo {
+    font-size: 2rem;
+  }
+  .instalaciones__articulo__descripcion {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .instalaciones__articulo__titulo {
+    font-size: 1.5rem;
+  }
+  .instalaciones__articulo__descripcion {
+    font-size: 1.3rem;
+  }
+  .instalaciones__articulo__boton, .habitaciones__suit__boton {
+    width: 200px;
+  }
+}
+
+.habitaciones__titulo, .comentarios__titulo, .mapa__titulo {
+  padding-top: 50px;
+  text-align: center;
+  color: #daa520;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.habitaciones__subtitulo {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.habitaciones__suit {
+  height: 400px;
+  padding: 0px 10% 50px 10%;
+}
+
+.habitaciones__suit__descripcion {
+  height: 100%;
+  padding-top: 30px;
+}
+
+.habitaciones__suit__descripcion__titulo, .habitaciones__suit__descripcion h2 {
+  color: #daa520;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.habitaciones__suit__descripcion__texto, .habitaciones__suit__descripcion h3 {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.habitaciones__suit__descripcion h2 {
+  font-size: 2rem;
+}
+
+.habitaciones__suit__img {
+  height: 100%;
+  border-radius: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.habitaciones__suit a {
+  text-decoration: none;
+}
+
+.habitaciones__suit__boton {
+  text-align: center;
+  width: 200px;
+}
+
+@media (max-width: 767px) {
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 320px;
+  }
+  .habitaciones__suit__img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .habitaciones__titulo, .comentarios__titulo, .mapa__titulo {
+    font-size: 2rem;
+  }
+  .habitaciones__subtitulo {
+    font-size: 1rem;
+    padding-bottom: 0px;
+  }
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 360px;
+  }
+  .habitaciones__suit__descripcion__titulo, .habitaciones__suit__descripcion h2, .habitaciones__suit__descripcion h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 400px;
+  }
+}
+
+@media (max-width: 334px) {
+  .habitaciones__suit {
+    height: 100%;
+  }
+  .habitaciones__suit__descripcion {
+    height: 430px;
+  }
+}
+
+.mapa .row {
+  padding: 0px 50px 20px 50px;
+}
+
+.mapa__googleMap {
+  padding: 0px 10% 50px 10%;
+  width: 100%;
+  height: 500px;
 }
 
 .footer {
