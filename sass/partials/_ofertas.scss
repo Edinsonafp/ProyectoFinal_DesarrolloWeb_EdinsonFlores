@@ -1,0 +1,76 @@
+@import "variables";
+@import "inicioIntroduccion";
+@import "inicioHabitaciones";
+
+.ofertas{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &__titulo{
+        @extend .habitaciones__titulo;
+    }    
+    &__trending{
+        position: relative;
+        height: 400px;        
+        &__titulo{
+            @extend .introduccion__ofertas__titulo;
+            bottom: 20%;
+            color: $color-dorado;            
+        }
+        &__subtitulo{
+            @extend .introduccion__ofertas__titulo;
+            bottom: 10%;
+            text-transform: uppercase;
+            font-size: 2rem;
+            color: $color-ofertas;
+        }
+        &__boton{
+            @extend .introduccion__ofertas__boton;
+        }
+        &__img{
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+    }
+
+    &__otras{
+        padding-top: 30px;
+        &__articulo{
+            position: relative;
+            height: 400px;  
+            &__titulo{
+                @extend .introduccion__ofertas__titulo;
+                bottom: 20%;
+                color: $color-dorado; 
+            }
+            &__subtitulo{
+                @extend .introduccion__ofertas__titulo;
+                 bottom: 10%;
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                color: white;    
+            }
+        }
+        
+    }
+}
+
+@media(max-width:767px){
+    .extraPaddingTop{
+        padding-top: 2%;
+    }
+    .ofertas{
+        &__trending{
+            &__titulo{                
+                font-size: 1.1rem;
+                bottom: 25%;
+            }
+            &__subtitulo{
+                font-size: 1.2rem;
+            }
+        }
+    }
+    
+
+}

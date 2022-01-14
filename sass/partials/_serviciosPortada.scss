@@ -1,0 +1,51 @@
+@import "variables";
+@import "inicioHabitaciones";
+
+.serviciosPortada{    
+    &__img{
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+    }
+}
+
+.serviciosInfo{
+    &__titulo{
+        @extend .habitaciones__titulo;
+    }
+    &__subtitulo{
+        @extend .habitaciones__subtitulo;
+    }
+    
+    &__articulo{
+        @extend .habitaciones__suit;
+        &__descripcion{
+            @extend .habitaciones__suit__descripcion;
+            &__titulo{
+                @extend .habitaciones__suit__descripcion__titulo;
+            }
+            &__texto{
+                @extend .habitaciones__suit__descripcion__texto;                
+            }
+
+        }
+        &__img{
+            height: 100%;
+            border-radius: 40px; 
+            object-fit: cover;                      
+        }  
+
+    }
+
+}
+
+@media(max-width:767px){
+    .serviciosInfo{        
+        &__articulo{
+            &__descripcion{
+                height: 100%;
+            }
+        }
+    }
+
+}

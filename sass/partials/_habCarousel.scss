@@ -1,0 +1,41 @@
+@import "variables";
+@import "mixin";
+
+.habCarousel{
+    &__item{
+        &__img{
+            height: 600px;
+            object-fit: cover;
+        }
+
+        &__texto{
+            h5{
+                font-size: 3rem;
+                color: $color-dorado;
+            }
+        }
+    }
+}
+
+@media(max-width:767px){
+
+    .habCarousel{
+        &__item{
+            &__img{
+                height: 400px;
+                object-fit: cover;
+            }
+    
+            &__texto{
+                h5{
+                    font-size: 3rem;
+                    color: $color-dorado;
+                }
+            }
+        }
+    }
+
+    .reverse{
+        @include reverse(flex, column-reverse);
+    }
+}

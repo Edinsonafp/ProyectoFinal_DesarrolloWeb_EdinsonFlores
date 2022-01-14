@@ -1,0 +1,31 @@
+@import "variables";
+@import "inicioHabitaciones";
+
+.reservas{
+    .form-check-input:checked {
+        background-color: $color-ofertas;
+        border-color: $color-ofertas;
+    }
+    padding-top: 100px;
+    padding-bottom: 50px;
+    &__titulo{
+        @extend .habitaciones__titulo;
+    }
+
+    &__formulario{
+        
+        border: solid 3px $color-dorado;
+        border-radius: 25px;
+        padding: 25px;
+        &__fila{
+            margin-bottom: 25px;           
+        }
+        &__boton{
+            @extend .habitaciones__suit__boton;
+            text-decoration: none;
+        }
+
+        
+    }
+}
+
