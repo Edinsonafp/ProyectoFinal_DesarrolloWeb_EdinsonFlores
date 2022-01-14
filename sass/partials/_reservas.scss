@@ -11,9 +11,7 @@
     &__titulo{
         @extend .habitaciones__titulo;
     }
-
-    &__formulario{
-        
+    &__formulario{        
         border: solid 3px $color-dorado;
         border-radius: 25px;
         padding: 25px;
@@ -23,9 +21,7 @@
         &__boton{
             @extend .habitaciones__suit__boton;
             text-decoration: none;
-        }
-
-        
+        }        
     }
 }
 
