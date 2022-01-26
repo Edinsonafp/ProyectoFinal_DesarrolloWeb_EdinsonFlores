@@ -4,7 +4,8 @@
     position: fixed;
     width: 100%;
     background-color: rgba($color: $color-principal, $alpha: 0.70);
-    z-index: 1;
+    z-index: 1;    
+
     .navbar-light .navbar-nav .nav-link{
         color: black;
     }
@@ -36,10 +37,18 @@
         height: 50px;
     }
 }
+@media(min-width:992px){
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+
+}
 
 @media(max-width:991px){
     .header{
         position: relative;
+        
         &__menu{
             &__botonReservar{
                 margin-left: 0px;

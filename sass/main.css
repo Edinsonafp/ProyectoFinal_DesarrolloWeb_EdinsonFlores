@@ -46,6 +46,17 @@
   height: 50px;
 }
 
+@media (min-width: 992px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media (max-width: 991px) {
   .header {
     position: relative;
@@ -328,8 +339,11 @@
 }
 
 .habitaciones__suit, .serviciosInfo__articulo {
+  width: 100%;
   height: 400px;
   padding: 0px 10% 50px 10%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .habitaciones__suit__descripcion, .serviciosInfo__articulo__descripcion {
@@ -501,8 +515,11 @@
 }
 
 .habitaciones__suit, .serviciosInfo__articulo {
+  width: 100%;
   height: 400px;
   padding: 0px 10% 50px 10%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .habitaciones__suit__descripcion, .serviciosInfo__articulo__descripcion {
@@ -730,8 +747,11 @@
 }
 
 .habitaciones__suit, .serviciosInfo__articulo {
+  width: 100%;
   height: 400px;
   padding: 0px 10% 50px 10%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .habitaciones__suit__descripcion, .serviciosInfo__articulo__descripcion {
@@ -945,8 +965,11 @@
 }
 
 .habitaciones__suit, .serviciosInfo__articulo {
+  width: 100%;
   height: 400px;
   padding: 0px 10% 50px 10%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .habitaciones__suit__descripcion, .serviciosInfo__articulo__descripcion {
@@ -1246,8 +1269,11 @@
 }
 
 .habitaciones__suit, .serviciosInfo__articulo {
+  width: 100%;
   height: 400px;
   padding: 0px 10% 50px 10%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .habitaciones__suit__descripcion, .serviciosInfo__articulo__descripcion {
@@ -1483,8 +1509,11 @@
 }
 
 .habitaciones__suit, .serviciosInfo__articulo {
+  width: 100%;
   height: 400px;
   padding: 0px 10% 50px 10%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .habitaciones__suit__descripcion, .serviciosInfo__articulo__descripcion {
