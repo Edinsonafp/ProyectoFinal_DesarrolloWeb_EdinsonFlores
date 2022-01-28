@@ -36,11 +36,12 @@
         ul{
             list-style: none;
             padding-left: 0px;
-            li{                
-                a{                
-                    text-decoration: none;
-                }
-            }            
+                          
+            a{             
+                text-decoration: none;
+                color: white
+            }
+                       
         }
     }
     &__contacts{

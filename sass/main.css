@@ -2049,8 +2049,9 @@
   padding-left: 0px;
 }
 
-.footer__links ul li a, .footer__contacts ul li a {
+.footer__links ul a, .footer__contacts ul a {
   text-decoration: none;
+  color: white;
 }
 
 .footer__address h1 {
