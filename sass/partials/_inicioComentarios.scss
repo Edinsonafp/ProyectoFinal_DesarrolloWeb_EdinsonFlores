@@ -1,16 +1,22 @@
 @import "variables";
 @import "inicioHabitaciones";
 
-.comentarios{
+.comentarios{    
+    width: 100%;
+    height: 500px;
     background-color: $color-principal;
     &__titulo{
         @extend .habitaciones__titulo;
     }
-    .row{
-        padding: 0px 50px 20px 50px;
-        justify-content: center;
+    /*
+    &__box{
+        width: 100%;
+        display: flex;
+        justify-content: center;  
+        padding-bottom: 20px;
+        
     }
-    &__cliente{        
+    &__cliente{           
         background-color: white;
         border: solid 3px $color-dorado;
         border-radius: 25px;
@@ -42,5 +48,121 @@
             font-size: 1rem;
             color: black;
         }
-    }   
+    }   */
+
+    &__carousel{
+        justify-content: center;
+        height: 400px;
+        padding: 50px 200px 50px 200px;
+        &__box{
+            background-color: white;
+            border-radius: 5px;
+        }
+    }
+    &__cliente{
+        justify-content: center;
+        display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 80px;
+        &__img{
+            align-items: center;
+            height: 100px;
+            width: 100px;
+            border: solid 3px $color-dorado;
+            border-radius: 50%;       
+            object-fit: cover; 
+        }
+        &__titulo{
+            padding-left: 20px;
+
+        }
+        &__texto{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
 }
+@media(max-width:830px){
+    .comentarios{
+        
+        height: 450px;
+        &__carousel{
+            padding: 0px;
+            &__box{
+                height: 300px;
+            }
+        }
+    }
+}
+
+
+@media(max-width:768px){
+    .comentarios{
+        padding: 0px;
+        height: 500px;
+        &__titulo{
+            font-size: 2rem;
+        }
+        
+        &__carousel{            
+            padding: 0px;
+            
+            &__box{
+                height: 300px;
+                background-color: white;
+                border-radius: 5px;
+            }
+        }
+        
+    }
+
+}
+
+
+@media(max-width:425px){
+    .comentarios{
+        height: 600px;
+        padding: 0px;
+        &__carousel{            
+            padding: 0px;
+            
+            &__box{
+                height: 400px;
+                background-color: white;
+                border-radius: 5px;
+            }
+        }
+        &__cliente{
+            justify-content: center;
+            display: inline-block;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 80px;
+            &__img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                align-items: center;
+                height: 100px;
+                width: 100px;
+                border: solid 3px $color-dorado;
+                border-radius: 50%;       
+                object-fit: cover; 
+            }
+            &__titulo{
+                padding-left: 20px;
+                text-align: center;
+    
+            }
+            &__texto{
+                padding-left: 20px;
+                padding-right: 20px;
+                text-align: center;
+            }
+        }
+    }
+
+}
+

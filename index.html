@@ -50,13 +50,11 @@
     </header>
     <!--Fin-Menu-->
     <!--Portada-->
-    <div class="container-fluid portada">
-      <div class="row">
-          <video class="portada__video ps-0 pe-0" autoplay loop muted>
-            <source src="img/portada__video.mp4" type="video/mp4">
-        </video>
-      </div>        
-    </div>
+    <div class="portada">
+      <video class="portada__video ps-0 pe-0" autoplay loop muted>
+        <source src="img/portada__video.mp4" type="video/mp4">
+      </video> 
+    </div>    
     <!--Fin-Portada-->
     <!--Introduccion-->
     <div class="container introduccion">
@@ -91,47 +89,51 @@
                   Nuestras Actividades!
               </h1>
               <img class="introduccion__actividades__img" src="img/introduccion__actividades__img.jpg" alt="">
-          </div>
+            </div>
         </div>
     </div>
     <!--Fin-Introduccion-->
     <!--Instalaciones-->
     <div class="container-fluid instalaciones ps-0 pe-0">
         <div class="row ">
-            <article class="instalaciones__articulo">
+            <div class="col">
+              <article class="instalaciones__articulo mx-auto ">
                 <h1 class="instalaciones__articulo__titulo">
                     Disfruta de las instalaciones mas exclusivas de la region!
                 </h1>
                 <p class="instalaciones__articulo__descripcion">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, officia inventore delectus doloribus perspiciatis fugiat quaerat ad accusantium laborum similique.
+                  En nuestras instalaciones podrás disfrutar de los mejores días de tu vida, descansando y relajándote de formas inexplicables, ven y descubre nuestro bello paraíso.
                 </p>
                 <a href="pages/servicios.html">
                   <div class="instalaciones__articulo__boton mx-auto">
                     Ver Mas
                   </div>
                 </a>                
-            </article>          
+              </article>    
+            </div>                  
         </div>
     </div>
     <!--Fin-Instalaciones-->
     <!--Habitaciones-->
     <div class="container-fluid habitaciones ps-0 pe-0">
         <div class="row">
-            <h1 class="habitaciones__titulo">
+            <div class="col">
+              <h1 class="habitaciones__titulo">
                 Nuestras Habitaciones
-            </h1>
-            <h2 class="habitaciones__subtitulo">
-                Las mas hermosas y comodas!
-            </h2>
+              </h1>
+              <h2 class="habitaciones__subtitulo">
+                  Las mas hermosas y comodas!
+              </h2>
+            </div>            
         </div>
-        <div class="row habitaciones__suit">
+        <div class="row habitaciones__suit mx-auto">
             <div class="habitaciones__suit__descripcion col-lg-6 col-md-6">
                 <article>
                     <h1 class="habitaciones__suit__descripcion__titulo">
                         Habitacion Suit
                     </h1>
                     <p class="habitaciones__suit__descripcion__texto">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, laboriosam a velit culpa dolorum fugit!                        
+                      Contamos con tres tipo de habitaciones, donde nos adaptamos a tus necesidades, gustos y confort!
                     </p>
                     <h3>Desde</h3>
                     <h2>$500 por noche</h2>
@@ -147,53 +149,81 @@
     </div>
     <!--Fin-Habitaciones-->
     <!--Comentarios-->
-    <div class="container-fluid comentarios ps-0 pe-0">
+    <div class="container-fluid comentarios">
         <div class="row">
-            <h1 class="comentarios__titulo">
+            <div class="col">
+              <h1 class="comentarios__titulo">
                 Nuestros Clientes Opinan 
-            </h1>
-        </div>
-        <div class="row">
-          <div class="comentarios__cliente col-lg-3 col-md-5">
-            <div class="comentarios__cliente__perfil ">
-                <img class="comentarios__cliente__perfil__img" src="img/comentario__cliente__img1.jpg" alt="">
-                <h3>Edinson Flores</h3>
+              </h1>
+            </div>            
+        </div>        
+        <div class="row comentarios__carousel mx-auto">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide comentarios__carousel__box" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <p class="comentarios__cliente__texto">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore sapiente officiis dolorem explicabo libero impedit necessitatibus enim ad praesentium.
-            </p>   
-          </div>   
-          <div class="comentarios__cliente col-lg-3 col-md-5">
-            <div class="comentarios__cliente__perfil ">
-                <img class="comentarios__cliente__perfil__img" src="img/comentario__cliente__img2.jpg" alt="">
-                <h3>Maria Laura</h3>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">                
+                <div class="comentarios__cliente">
+                    <img class="comentarios__cliente__img" src="img/comentario__cliente__img1.jpg" alt="">
+                    <div>
+                      <h1 class="comentarios__cliente__titulo">
+                        Edinson Flores
+                      </h1>
+                      <p class="comentarios__cliente__texto">
+                        Me Encanto el lugar, desde que llegue conecte, ¡simplemente hermoso!
+                      </p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">                
+                <div class="comentarios__cliente">
+                  <img class="comentarios__cliente__img" src="img/comentario__cliente__img2.jpg" alt="">
+                  <div>
+                    <h1 class="comentarios__cliente__titulo">
+                      Maria Laura
+                    </h1>
+                    <p class="comentarios__cliente__texto">
+                      Enamorada, desde que llegue me quede sin palabras, 100% relajante!
+                    </p>
+                  </div>
+              </div>
+              </div>
+              <div class="carousel-item">                
+                <div class="comentarios__cliente">
+                  <img class="comentarios__cliente__img" src="img/comentario__cliente__img3.jpg" alt="">
+                  <div>
+                    <h1 class="comentarios__cliente__titulo">
+                      Emilda Medina
+                    </h1>
+                    <p class="comentarios__cliente__texto">
+                      Vendría una y mil veces, de mis lugares favoritos en el mundo!
+                    </p>
+                  </div>
+              </div>
+              </div>
             </div>
-            <p class="comentarios__cliente__texto">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore sapiente officiis dolorem explicabo libero impedit necessitatibus enim ad praesentium.
-            </p>   
-          </div>   
-          <div class="comentarios__cliente col-lg-3 col-md-10">
-            <div class="comentarios__cliente__perfil ">
-                <img class="comentarios__cliente__perfil__img" src="img/comentario__cliente__img3.jpg" alt="">
-                <h3>Emilda Medina</h3>
-            </div>
-            <p class="comentarios__cliente__texto">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore sapiente officiis dolorem explicabo libero impedit necessitatibus enim ad praesentium.
-            </p>   
-          </div>   
-          
-
-        </div>
-          
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>        
     </div>
     <!--Fin-comentarios-->
     <!--Mapa-->
-    <div class="container-fluid mapa ps-0 pe-0">
+    <div class="container-fluid mapa">
       <div class="row">
-          <h1 class="mapa__titulo">
+          <div class="col">
+            <h1 class="mapa__titulo">
               Encuentranos en
-          </h1>
-          <div class="">
+            </h1>
             <iframe class="mapa__googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13098.21440822518!2d-81.71144572471034!3d12.574177188670259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f05a5e45772b3c1%3A0x8fe00622defb53ed!2sHotel%20Blue%20Reef!5e0!3m2!1ses!2sco!4v1636812090638!5m2!1ses!2sco"></iframe>
           </div>
       </div>

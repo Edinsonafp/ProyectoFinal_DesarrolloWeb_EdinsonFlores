@@ -20,65 +20,65 @@
 <body>
     <!--Menu-->
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="navbar mx-auto">
-              <a class="navbar-brand" href="../index.html"><img class="header__logo" src="../img/logo.png" alt="logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav header__menu">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="habitaciones.html">Habitaciones</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="ofertas.html">Ofertas</a>
-                  </li>
-                  <li class="nav-item header__menu__botonReservar">
-                    <a class="nav-link" href="reservas.html">Reservar Ahora</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="header__logo" src="../img/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav header__menu">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">    
+                <a class="nav-link" href="habitaciones.html">Habitaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item header__menu__botonReservar">
+                <a class="nav-link" href="reservas.html">Reservar Ahora</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
     <!--Fin-Menu-->
     <!--Portada-->
-    <div class="container-fluid serviciosPortada ps-0 pe-0">
-      <div class="row">
+    <div class="serviciosPortada">      
           <img class="serviciosPortada__img" src="../img/servicios__portada.jpg" alt="">
-      </div>        
     </div>
     <!--Contenido-->
     <div class="container-fluid serviciosInfo">
       <div class="row">
-        <h1 class="serviciosInfo__titulo">
+        <div class="col">
+          <h1 class="serviciosInfo__titulo">
             Disfruta de los mejores servicios
-        </h1>
-        <h2 class="serviciosInfo__subtitulo">
-            encuentra todo lo que necesitas con nosotros!
-        </h2>
+          </h1>
+          <h2 class="serviciosInfo__subtitulo">
+              encuentra todo lo que necesitas con nosotros!
+          </h2>          
+        </div>        
       </div>
-      <div class="row serviciosInfo__articulo reverse">
+      <div class="row serviciosInfo__articulo reverse mx-auto">
         <div class="serviciosInfo__articulo__descripcion col-lg-6 col-md-6">
           <article>
               <h1 class="serviciosInfo__articulo__descripcion__titulo">
                   Restaurante
               </h1>
               <p class="serviciosInfo__articulo__descripcion__texto">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, laboriosam a velit culpa dolorum fugit!                        
+                En nuestro restaurante podrás disfrutar de los platillos mas deliciosos con los mejores ingredientes proveniente del mar y de nuestro campo. Contamos con distintos menús para que disfrutes de lo que mas deseas!                     
               </p>
           </article>          
         </div>
         <img class="serviciosInfo__articulo__img col-lg-6 col-md-6" src="../img/servicios__restaurante.jpg" alt="">
       </div>
-      <div class="row serviciosInfo__articulo">        
+      <div class="row serviciosInfo__articulo mx-auto">        
         <img class="serviciosInfo__articulo__img col-lg-6 col-md-6" src="../img/servicios__piscina.jpg" alt="">
         <div class="serviciosInfo__articulo__descripcion col-lg-6 col-md-6">
           <article>
@@ -86,19 +86,19 @@
                   Piscina
               </h1>
               <p class="serviciosInfo__articulo__descripcion__texto">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, laboriosam a velit culpa dolorum fugit!                        
+                Nuestra piscina climatizada, cuenta con hermosas vistas y distintas fases, donde podrán disfrutar desde los mas adultos hasta los pequeñitos de la casa, desde burbujas masajeadores hasta impresionantes toboganes!                        
               </p>
           </article>          
         </div>
       </div>
-      <div class="row serviciosInfo__articulo reverse">
+      <div class="row serviciosInfo__articulo reverse mx-auto">
         <div class="serviciosInfo__articulo__descripcion col-lg-6 col-md-6">
           <article>
               <h1 class="serviciosInfo__articulo__descripcion__titulo">
                   Actividades
               </h1>
               <p class="serviciosInfo__articulo__descripcion__texto">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, laboriosam a velit culpa dolorum fugit!                        
+                En nuestro Resort podrás realizar distintas actividades, desde eventos especiales durante la noche, donde podrás disfrutar de nuestras bebidas y música, hasta expediciones de buceo en nuestro encantador mar!                        
               </p>
           </article>          
         </div>

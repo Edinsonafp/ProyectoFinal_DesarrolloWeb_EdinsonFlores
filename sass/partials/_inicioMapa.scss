@@ -3,10 +3,6 @@
 
 .mapa{
 
-    .row{
-        padding: 0px 50px 20px 50px;
-    }
-
     &__titulo{
         @extend .habitaciones__titulo;
     }
