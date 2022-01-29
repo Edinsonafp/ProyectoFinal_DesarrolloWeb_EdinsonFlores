@@ -10,6 +10,7 @@
 }
 
 .serviciosInfo{
+    overflow-x: hidden;
     &__titulo{
         @extend .habitaciones__titulo;
     }
