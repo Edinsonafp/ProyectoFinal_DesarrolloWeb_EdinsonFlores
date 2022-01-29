@@ -20,8 +20,11 @@
         }
         &__boton{
             @extend .habitaciones__suit__boton;
-            text-decoration: none;
-        }        
+            text-decoration: none;            
+        }     
+        &__boton:hover{
+            color: white;
+        }   
     }
 }
 

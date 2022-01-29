@@ -108,6 +108,10 @@
   border-radius: 20px;
 }
 
+.introduccion__ofertas__boton:hover, .introduccion__servicios__boton:hover, .introduccion__actividades__boton:hover, .ofertas__trending__boton:hover {
+  background-color: #0CB088;
+}
+
 .introduccion__ofertas__titulo, .introduccion__servicios__titulo, .introduccion__actividades__titulo, .ofertas__trending__titulo, .ofertas__trending__subtitulo, .ofertas__otras__articulo__titulo, .ofertas__otras__articulo__subtitulo {
   z-index: 1;
   position: absolute;
@@ -240,6 +244,10 @@
   border-radius: 20px;
 }
 
+.instalaciones__articulo__boton:hover, .habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
+}
+
 @media (max-width: 768px) {
   .instalaciones__articulo__titulo {
     font-size: 2rem;
@@ -328,6 +336,10 @@
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 20px;
+}
+
+.instalaciones__articulo__boton:hover, .habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
 }
 
 @media (max-width: 768px) {
@@ -433,6 +445,10 @@
 .habitaciones__suit__boton, .reservas__formulario__boton {
   text-align: center;
   width: 200px;
+}
+
+.habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
 }
 
 @media (max-width: 768px) {
@@ -544,6 +560,10 @@
   border-radius: 20px;
 }
 
+.instalaciones__articulo__boton:hover, .habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
+}
+
 @media (max-width: 768px) {
   .instalaciones__articulo__titulo {
     font-size: 2rem;
@@ -647,6 +667,10 @@
 .habitaciones__suit__boton, .reservas__formulario__boton {
   text-align: center;
   width: 200px;
+}
+
+.habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
 }
 
 @media (max-width: 768px) {
@@ -928,6 +952,10 @@
   border-radius: 20px;
 }
 
+.instalaciones__articulo__boton:hover, .habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
+}
+
 @media (max-width: 768px) {
   .instalaciones__articulo__titulo {
     font-size: 2rem;
@@ -1031,6 +1059,10 @@
 .habitaciones__suit__boton, .reservas__formulario__boton {
   text-align: center;
   width: 200px;
+}
+
+.habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
 }
 
 @media (max-width: 768px) {
@@ -1180,6 +1212,10 @@
   border-radius: 20px;
 }
 
+.instalaciones__articulo__boton:hover, .habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
+}
+
 @media (max-width: 768px) {
   .instalaciones__articulo__titulo {
     font-size: 2rem;
@@ -1283,6 +1319,10 @@
 .habitaciones__suit__boton, .reservas__formulario__boton {
   text-align: center;
   width: 200px;
+}
+
+.habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
 }
 
 @media (max-width: 768px) {
@@ -1393,6 +1433,10 @@
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 20px;
+}
+
+.introduccion__ofertas__boton:hover, .introduccion__servicios__boton:hover, .introduccion__actividades__boton:hover, .ofertas__trending__boton:hover {
+  background-color: #0CB088;
 }
 
 .introduccion__ofertas__titulo, .introduccion__servicios__titulo, .introduccion__actividades__titulo, .ofertas__trending__titulo, .ofertas__trending__subtitulo, .ofertas__otras__articulo__titulo, .ofertas__otras__articulo__subtitulo {
@@ -1527,6 +1571,10 @@
   border-radius: 20px;
 }
 
+.instalaciones__articulo__boton:hover, .habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
+}
+
 @media (max-width: 768px) {
   .instalaciones__articulo__titulo {
     font-size: 2rem;
@@ -1630,6 +1678,10 @@
 .habitaciones__suit__boton, .reservas__formulario__boton {
   text-align: center;
   width: 200px;
+}
+
+.habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
 }
 
 @media (max-width: 768px) {
@@ -1819,6 +1871,10 @@
   border-radius: 20px;
 }
 
+.instalaciones__articulo__boton:hover, .habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
+}
+
 @media (max-width: 768px) {
   .instalaciones__articulo__titulo {
     font-size: 2rem;
@@ -1924,6 +1980,10 @@
   width: 200px;
 }
 
+.habitaciones__suit__boton:hover, .reservas__formulario__boton:hover {
+  background-color: #0CB088;
+}
+
 @media (max-width: 768px) {
   .habitaciones__suit, .serviciosInfo__articulo {
     height: 100%;
@@ -2007,6 +2067,10 @@
 
 .reservas__formulario__boton {
   text-decoration: none;
+}
+
+.reservas__formulario__boton:hover {
+  color: white;
 }
 
 .footer {

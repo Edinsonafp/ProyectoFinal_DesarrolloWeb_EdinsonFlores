@@ -20,6 +20,9 @@
             text-transform: uppercase;
             border-radius: 20px;            
         }
+        &__boton:hover{
+            background-color: $color-principal;
+        }
         
         &__titulo{
             z-index: 1;

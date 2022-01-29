@@ -41,6 +41,9 @@
             text-transform: uppercase;
             border-radius: 20px;  
         }
+        &__boton:hover{
+            background-color: $color-principal;
+        }
     }
 }
 @media(max-width:768px){

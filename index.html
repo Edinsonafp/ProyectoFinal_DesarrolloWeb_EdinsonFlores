@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--AOS animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!--Menu-->
@@ -59,7 +61,7 @@
     <!--Introduccion-->
     <div class="container introduccion">
         <div class="row">
-            <div class="col-lg-6 col-md-12 introduccion__ofertas">
+            <div class="col-lg-6 col-md-12 introduccion__ofertas" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <a href="pages/ofertas.html">
                   <div class="introduccion__ofertas__boton">
                     Ofertas activas
@@ -68,7 +70,7 @@
                 <h1 class="introduccion__ofertas__titulo">Disfruta de nuestras ofertas exclusivas!</h1>                
                 <img class="introduccion__ofertas__img" src="img/introduccion__ofertas__img.jpg" alt="">
             </div>
-            <div class="col-lg-3 col-sm-6 introduccion__servicios">
+            <div class="col-lg-3 col-sm-6 introduccion__servicios" data-aos="fade-up" data-aos-duration="1000">
                 <a href="pages/servicios.html">
                     <div class="introduccion__servicios__boton">
                         Ver Mas
@@ -79,7 +81,7 @@
                 </h1>
                 <img class="introduccion__servicios__img" src="img/introduccion__servicios__img.jpg" alt="">
             </div>
-            <div class="col-lg-3 col-sm-6 introduccion__actividades">
+            <div class="col-lg-3 col-sm-6 introduccion__actividades" data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
               <a href="pages/servicios.html ">
                   <div class="introduccion__actividades__boton">
                       Ver Mas
@@ -144,7 +146,7 @@
                 </div>
                 </a>                
             </div>
-            <img class="habitaciones__suit__img col-lg-6 col-md-6" src="img/habitacion__suit.jpg" alt="">
+            <img class="habitaciones__suit__img col-lg-6 col-md-6" src="img/habitacion__suit.jpg" alt="" data-aos="fade-left">
         </div>        
     </div>
     <!--Fin-Habitaciones-->
@@ -275,5 +277,8 @@
     <!-- Bootstrap JS-->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
